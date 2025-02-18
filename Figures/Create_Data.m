@@ -8,7 +8,8 @@ function Create_Data()
 % PLoS Computational Biology (in review).
 
 % Move to source folder(assuming it contains the Figures folder
-cd ..;
+cd  'C:\Users\caioc\Downloads\NM_TC-master\NM_TC-master\Figures'
+
 
 % Check if the executable exists and compile if needed
 if(exist('Thalamus_mex.mesa64', 'file')==0)
